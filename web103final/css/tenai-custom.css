@@ -1,0 +1,149 @@
+
+form { max-width:420px; margin:50px auto; }
+
+.contact-form {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #f38a66;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.contact-form:focus { border:2px solid #de6942; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  background:#f38a66;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#de6942; }
+
+#typewriteText{
+
+  font-size: 40px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.ml13 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.accordion-control {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 30px;
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+}
+
+@media (min-width: 992px){
+.accordion-control {
+  font-size: 24px;
+}
+}
+
+@media (min-width: 1200px) {
+  .accordion-control {
+    font-size: 30px;
+  }
+}
+
+.accordion-panel {
+  display: none;
+}
+
+.accordion-control:after {
+  content: '\002B';
+  color: black;
+  float: right;
+  margin-left: 10px;
+}
+
+.actives:after {
+  content: "\2212";
+}
+
+.accordion-panel {
+  margin-top: 20px;;
+}
+
+section.download h2 {
+
+  font-size: 2em;
+}
+
+@media (min-width: 992px){
+  section.download h2 {
+    font-size: 2.7em;
+  }
+  }
+
+  @media (min-width: 1200px) {
+    section.download h2 {
+      font-size: 3.2em;
+    }
+  }
+
+#getcalculating {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#totop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#totop:hover {
+  background-color: #555;
+}
+
